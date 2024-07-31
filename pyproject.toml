@@ -8,6 +8,10 @@ readme = "README.md"
 [tool.poetry.dependencies]
 python = "3.12.*"
 fastapi = "^0.111.1"
+sqlalchemy = "^2.0.31"
+pydantic-settings = "^2.4.0"
+tzdata = "^2024.1"
+pymssql = {extras = ["binary"], version = "^2.3.0"}
 
 [tool.poetry.group.dev.dependencies]
 pytest = "^8.3.2"
